@@ -6,7 +6,7 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #0e6289;
 }
 
 ul {
@@ -22,16 +22,27 @@ h1 {
 }
 
 .header {
-    background-color: #1287be;
-    
+    background-color: #1d7ca8;   
 }
 
 .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(18, 145, 176);
+    background-color: rgb(255, 255, 255);
     padding: 3px 100px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.title {
+    color: #146d97;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .links {
@@ -51,7 +62,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     gap: 36px;
-    padding: 30px 100px;
+    padding: 50px 100px;
     overflow: hidden;
 }
 
@@ -76,12 +87,13 @@ h1 {
 }
 
 .top-left button {
-    width: 120px;
+    width: 100px;
     align-self: flex-start;
     background-color: #063d96;
     color: white;
     border: 0;
     padding: 8px 0;
     border-radius: 5px;
-    box-shadow: 2px 4px 16px rgba(0,0,0,0.3); 
+    box-shadow: 2px 4px 16px rgba(0,0,0,0.3);
+    font-weight: 400;
 }
