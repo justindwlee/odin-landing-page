@@ -90,7 +90,7 @@ h1 {
     justify-content: space-around;
 }
 
-.top-left button {
+.sign-up-button {
     width: 100px;
     align-self: flex-start;
     background-color: #063d96;
@@ -139,4 +139,56 @@ h1 {
     max-width: 100px;
     text-align: center;
     opacity: 0.6;
+}
+
+/* bottom-section */
+
+.quote-box {
+    background-color: aliceblue;
+    padding: 50px 100px;
+}
+
+.quote-box p {
+    font-weight: 200;
+    font-size: 22px;
+    text-align: center;
+}
+
+.quote-box span {
+    display: block;
+    text-align: end;
+    font-size: 14px;
+}
+
+/* sign-up section */
+
+.sign-up {
+    background-color: #3B82F6;
+    display: flex;
+    align-items: center;
+    margin: 53px 60px;
+    padding: 20px 40px;
+    border-radius: 6px;
+    color: white;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.sign-up h4 {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.sign-up p {
+    font-size: 10px;
+    margin: 0;
+    opacity: 0.8;
+}
+
+.sign-up .sign-up-button {
+    align-self: center;
+    border: 2px solid white;
+    background-color: #3B82F6;
+    box-shadow: none;
 }
