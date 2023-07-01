@@ -192,3 +192,13 @@ h1 {
     background-color: #3B82F6;
     box-shadow: none;
 }
+
+/* Copyright Section */
+
+.copyright {
+    background-color: #1F2937;
+    color: rgba(255,255,255,0.6);
+    text-align: center;
+    padding: 20px 0;  
+    font-size: 12px;
+}
